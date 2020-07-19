@@ -5,6 +5,25 @@ public class PobieranieLiczb {
     ile  znaków  stoi  w  alfabecie  pomiędzy  podanymi  literami.
     Podpowiedź – skorzystaj z tablicy kodów ASCII i traktuj znaki jak liczby int.*/
     //Zadanie 14
+
+
+
+    Scanner scanner = new Scanner(System.in);
+
+    public Chars getChar() {
+        System.out.println("Podaj pierwszą z małych liter: ");
+        char sign1 = scanner.next().charAt(0);
+        System.out.println("Podaj drugą z małych liter: ");
+        char sign2 = scanner.next().charAt(0);
+        Chars chars = new Chars(sign1, sign2);
+        return chars;
+    }
+
+
+
+    public int getResult(Chars chars){
+        return chars.getSign2() - chars.getSign1();
+    }
     public static class Chars{
 
         public char getSign1() {
@@ -23,21 +42,5 @@ public class PobieranieLiczb {
 
         char sign1;
         char sign2;
-    }
-
-
-
-    Scanner scanner = new Scanner(System.in);
-
-    public Chars getChar() {
-        System.out.println("Podaj pierwszą z małych liter: ");
-        char sign1 = scanner.next().charAt(0);
-        System.out.println("Podaj drugą z małych liter: ");
-        char sign2 = scanner.next().charAt(0);
-        Chars chars = new Chars(sign1, sign2);
-        return chars;
-    }
-    public int getResult(Chars chars){
-        return chars.getSign2() - chars.getSign1();
     }
 }
