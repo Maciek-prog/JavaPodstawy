@@ -12,6 +12,7 @@ public class Main {
         int signno = String.valueOf(number).length();
         int sum = 0;
         System.out.println(signno);
+        int j = 10;
 
         for (int i = 1; i <= signno; i++) {
             sum += number % 10;
