@@ -21,6 +21,10 @@ public class Main {
 
         //ZADANIE 15
 
+        Zadanie15 zadanie15 = new Zadanie15();
+        Dwukrotnosc[] dwukrotnosc2 = zadanie15.getDwukrotsonsc();
+        zadanie15.printNumber(dwukrotnosc2);
+
 
     }
 }

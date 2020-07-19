@@ -28,7 +28,7 @@ public class Zadanie15 {
         return dwukrotnosc2;
     }
     public void printNumber(){
-        for (Dwukrotnosc dwukrotnosc: dwukrotnosc2)
+
 
     }
 }
