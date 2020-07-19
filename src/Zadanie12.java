@@ -6,10 +6,18 @@ public class Zadanie12 {
 
         Scanner scanner = new Scanner(System.in);
 
-        String word = scanner.next();
+        String text = scanner.nextLine();
 
-        String znakSpcaji=" ";
+        char znakSpcaji=' ';
+        int sumSpacji=0;
+        for(int i =0;i < text.length();i++){
+            if(text.charAt(i) == znakSpcaji){
+                sumSpacji++;
+            }
 
-
+        }
+        int procent = (int) ((double)sumSpacji/text.length()*100);
+        System.out.println(procent);
+        System.out.println(sumSpacji + " Procent: " + procent);
     }
 }
