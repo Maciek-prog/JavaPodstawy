@@ -13,13 +13,14 @@ public class Main {
 
         //ZADANIE 14
 
-        PobieranieLiczb pobieranieLiczb = new PobieranieLiczb();
-        PobieranieLiczb.Chars aChar = pobieranieLiczb.getChar();
-        System.out.println(pobieranieLiczb.getResult(aChar));
+//        PobieranieLiczb pobieranieLiczb = new PobieranieLiczb();
+//        PobieranieLiczb.Chars aChar = pobieranieLiczb.getChar();
+//        System.out.println(pobieranieLiczb.getResult(aChar));
 
 //--------------------------------------------------------------------
 
         //ZADANIE 15
+
 
     }
 }
